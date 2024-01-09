@@ -19,7 +19,7 @@ type DB struct {
 	Client *mongo.Client
 }
 
-var ApplyURI = "mongodb+srv://alexisloza:ael156520@cluster1.n6yawic.mongodb.net/"
+var ApplyURI = "YOUR MONGO URI HERE"
 
 func Connect() *DB {
 	ctx, cancel := context.WithTimeout(context.Background(), 10*time.Second)
