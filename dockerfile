@@ -9,6 +9,6 @@ RUN go run github.com/99designs/gqlgen generate
 
 RUN go build -o api .
 
-EXPOSE 9000
+EXPOSE 8000
 
 CMD [ "./api" ]
